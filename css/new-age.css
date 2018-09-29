@@ -346,10 +346,18 @@ section.cta.cit63 {
 section.cta.family {
   background-image: url("../img/family_bg.jpg");
 }
+
 section.cta.baize {
   background-image: url("../img/baize_bg.jpg");
 }
 
+section.cta.rio {
+  background-image: url("../img/rio_bg.jpg");
+}
+
+section.cta.community {
+  background-image: url("../img/community_bg.jpg");
+}
 
 
 section.cta .cta-content {
