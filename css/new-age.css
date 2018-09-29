@@ -293,6 +293,65 @@ section.cta {
   background-size: cover;
 }
 
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.cta.life {
+  background-image: url("../img/bg-cta.jpg");
+}
+
+section.cta.home {
+  background-image: url("../img/home_bg.jpg");
+}
+
+section.cta.bunny {
+  background-image: url("../img/bunny_bg.jpg");
+}
+
+section.cta.food {
+  background-image: url("../img/food_bg.jpg");
+}
+
+section.cta.worms {
+  background-image: url("../img/worms_bg.jpg");
+}
+
+section.cta.work {
+  background-image: url("../img/work_bg.jpg");
+}
+
+section.cta.cit93 {
+  background-image: url("../img/cit93_bg.jpg");
+}
+
+section.cta.cit82 {
+  background-image: url("../img/cit82_bg.jpg");
+}
+
+section.cta.cit15 {
+  background-image: url("../img/cit15_bg.jpg");
+}
+
+section.cta.cit63 {
+  background-image: url("../img/cit15_bg.jpg");
+}
+
+section.cta.family {
+  background-image: url("../img/family_bg.jpg");
+}
+section.cta.baize {
+  background-image: url("../img/baize_bg.jpg");
+}
+
+
+
 section.cta .cta-content {
   position: relative;
   z-index: 1;
