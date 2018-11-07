@@ -1,0 +1,50 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    text-align: center
+}
+
+
+h1, h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 1.3em
+}
+button {
+    color: white;
+    background: rgb(90, 71, 71);;
+    padding: 20px;
+    width: 80%
+}
+.lbhead, a {
+    color: rgb(160, 231, 165)
+}
+.gamehead {
+    color: rgb(90, 71, 71);
+}
+/*flexbox */
+.lb {
+  background: rgb(90, 71, 71);
+  margin-bottom: 10px;
+  
+}
+.game {
+  background: rgb(160, 231, 165);
+}
+.lb,
+.game {
+  padding: 3%;
+  border-radius: 10px;
+  width: 70%
+}
+
+@media ( min-width : 600px ){
+	.flexbox {
+    display: -webkit-flex;
+    display: flex;
+	}
+  .lb {
+    margin: 0 10px 0 10px;
+  }
+}
