@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Shadows+Into+Light+Two" rel="stylesheet">
+    <title>Kitty Match - Simple Mode</title>
+</head>
+
+<body>
+    <div class="flexbox">
+        <div class="lb">
+            <h1><span class="lbhead">Kitty match</span> <br> Simple Mode : Single Guess</h1>
+            <h2 class="lbhead">LeaderBoard</h2>
+            <div id="leaderboard"></div>
+        </div>
+
+        <div class="game">
+            <div id="gameplay">
+                <form id="startGame">
+                    <h2 class="gamehead">Let's Play!!!<br>I've selected a kittens</h2>
+                    <p>There are a total of 4 kitten, <br>which one do you think I've picked?</p>
+                    <p><span class="gamehead">Names of the kittens:</span></p>
+                    <img src="img/cat1.jpg" alt="Max" title="Max">
+                    <img src="img/cat2.jpg" alt="Coco" title="Coco">
+                    <img src="img/cat3.jpg" alt="Smokey" title="Smokey">
+                    <img src="img/cat4.jpg" alt="Molly" title="Molly">
+
+                     <p>Max -- Coco -- Smokey -- Molly </p>
+                    <label>
+                        To Play Enter: <input type="text" id="getPlayer" placeholder="Your First Name" required>
+                    </label>
+                    <br>
+                        <label>
+                            Your Guess: <input type="text" id="getGuess" placeholder="enter ktiten name" required>
+                        </label>
+                        <p></p>
+                        <button>submit</button>
+                </form>
+            </div>
+
+            <div id="game-results"></div>
+        </div>
+        <div class="lb">
+            <h1 class="lbhead">Game Play Details</h1>
+            <div id="game-detail"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+    <script src="uuid/uuid.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

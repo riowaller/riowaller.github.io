@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2.0em;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    border: 2px rgb(161, 161, 243) solid;
+    padding: 10px;
+    background-color: beige;
+   
+}
+.box1 {
+    
+}
